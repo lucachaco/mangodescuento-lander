@@ -32,18 +32,8 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
-a {
-  color:#39c;
-  font-weight:400;
-  text-decoration:none;
-}
 
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.6em;
-  display:block;
-}
+
 
 .wrapper {
   width:860px;
