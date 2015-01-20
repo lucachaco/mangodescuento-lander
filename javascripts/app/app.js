@@ -4,28 +4,29 @@
 
 var mangoDescuentoApp = angular.module('mangoDescuentoApp', [
     'ngRoute',
-    'siteControllers'
+    'siteControllers',
+    'siteServices'
 ]);
 
 
 /*
-angularApp.config(['$routeProvider',
-    function ($routeProvider) {
-        $routeProvider.
-            when('/saison', {
-                templateUrl: '/assets/app/partials/simple-corners.html',
-                controller: 'TheSeasonsCtrl'
-            }).
+ angularApp.config(['$routeProvider',
+ function ($routeProvider) {
+ $routeProvider.
+ when('/saison', {
+ templateUrl: '/assets/app/partials/simple-corners.html',
+ controller: 'TheSeasonsCtrl'
+ }).
 
-            otherwise({
-                redirectTo: '/saison'
-            });
-    }]);
-
-
-angularApp.run(['$rootScope', function ($rootScope) {
+ otherwise({
+ redirectTo: '/saison'
+ });
+ }]);
 
 
+ angularApp.run(['$rootScope', function ($rootScope) {
 
-}]);
-*/
+
+
+ }]);
+ */
